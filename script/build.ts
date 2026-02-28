@@ -38,6 +38,10 @@ async function buildAll() {
   console.log("building client...");
   await viteBuild();
 
+  if (process.env.VERCEL === "1") {
+    return;
+  }
+
   console.log("building server...");
   const pkg = JSON.parse(await readFile("package.json", "utf-8"));
   const allDeps = [
