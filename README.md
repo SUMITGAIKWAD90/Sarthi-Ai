@@ -1,1 +1,1 @@
-# Sarthi-Ai
+Title  =  Sarthi - The Finance AI
