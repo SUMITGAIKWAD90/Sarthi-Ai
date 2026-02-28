@@ -1,13 +1,13 @@
-import { Button } from "@/components/ui/button";
-import { Link } from "wouter";
-import { ArrowRight, MessageSquareText, ShieldCheck, Zap, Clock } from "lucide-react";
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { ArrowRight, MessageSquareText, ShieldCheck, Zap } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Home() {
   return (
@@ -29,7 +29,8 @@ export default function Home() {
                 AI-Powered Personal Loan Assistant
               </div>
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-foreground mb-6">
-                TataSaarthi – <span className="text-primary">AI-Powered</span> Personal Loan Assistant
+                Finance sarthi
+– <span className="text-primary">AI-Powered</span> Personal Loan Assistant
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
                 Get instant assistance for your personal loan needs. Check eligibility, calculate EMIs, and get sanction letters approved in minutes.
@@ -95,11 +96,13 @@ export default function Home() {
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-left text-lg font-medium">What is TataSaarthi?</AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                TataSaarthi is Tata Capital’s AI-powered personal loan assistant, guiding users through loan options, eligibility, approvals, and sanction letter generation via a web-based chatbot.
+                Finance sarthi
+is Tata Capital’s AI-powered personal loan assistant, guiding users through loan options, eligibility, approvals, and sanction letter generation via a web-based chatbot.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger className="text-left text-lg font-medium">How does TataSaarthi work?</AccordionTrigger>
+              <AccordionTrigger className="text-left text-lg font-medium">How does Finance sarthi
+work?</AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
                 It uses agentic AI: A Master Agent orchestrates Worker Agents to interact with you, verify your details against our database, and approve loans based on strict underwriting rules.
               </AccordionContent>
@@ -136,7 +139,8 @@ export default function Home() {
             <span className="hover:text-primary cursor-pointer">Terms of Service</span>
           </div>
           <div className="text-sm text-muted-foreground">
-            © 2025 TataSaarthi Prototype.
+            © 2025 Finance sarthi
+Prototype.
           </div>
         </div>
       </footer>

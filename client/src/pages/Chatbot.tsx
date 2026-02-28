@@ -365,7 +365,7 @@ export default function Chatbot() {
         <div>
            <h1 className="text-lg font-bold flex items-center gap-2">
             <BrainCircuit className="h-5 w-5 text-primary" /> 
-            TataSaarthi AI
+            FinanceSarthi Ai
            </h1>
            <p className="text-xs text-muted-foreground flex items-center gap-1">
              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
@@ -645,3 +645,4 @@ function UserSelectionDialog({
     </Dialog>
   );
 }
+
